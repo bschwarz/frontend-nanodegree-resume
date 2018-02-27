@@ -1,3 +1,3 @@
-# Welcome to my page for the Udacity Frontend Web Developer Nanodegree
+# Welcome to my Frontend Web Developer Nanodegree page
 
-Here you will find the code to complete project #2 for the program. It is a dynamic resume.
+Here you will find the code to complete project #2 for the nanodegree offered by Udacity. It is a dynamic resume.
