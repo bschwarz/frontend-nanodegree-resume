@@ -32,8 +32,7 @@ var bio = {
     // Display Contacts
     for (var contact in bio.contacts) {
       var formattedContact = HTMLcontactGeneric.replace("%contact%",contact).replace("%data%",bio.contacts[contact]);
-      $("#topContacts").append(formattedContact);
-      $("#footerContacts").append(formattedContact);
+      $("#topContacts,#footerContacts").append(formattedContact);
     }
 
         // Display bio pic
@@ -190,7 +189,7 @@ var projects = {
      "title" : "API Studio",
      "dates" : "2017",
      "description" : "Tool to document and configure APIs",
-     "images" : [""]
+     "images" : ["images/fry.jpg"]
     }
   ],
   display: function() {
